@@ -1,52 +1,73 @@
-.grid-container {
+body {
+    margin: 50px;
+    background-color: #000000;
+  }
+
+.wrapper {
     display: grid;
-    grid-template-areas: 
-    'austronaut ninja1 nerd1'
-    'läkare gitarrknäppare snorklare'
-    'clown ninja2 nerd2'
-    'fotograf personlig_tränare';
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, [col] 1fr);
+    grid-template-rows: repeat(4, [row] auto);
+    color: #000000;
 }
 
-.item1 {
-    grid-area: austronaut;
+.box {
+    background-color: #a7f0ce;
+    border-radius: 5px;
+    padding: 5px;
 }
 
-.item2 {
-    grid-area: ninja1; 
+.a {
+    grid-column: col 1 / span 2;
+    grid-row: row 1;
 }
 
-.item3 {
-    grid-area: nerd1;
+.b {
+    grid-column: col 3 / span 2;
+    grid-row: row 1;
 }
 
-.item4 {
-    grid-area: läkare;
+.c {
+    grid-column: col 5 / span 2;
+    grid-row: row 1;
 }
 
-.item5 {
-    grid-area: gitarrknäppare;
+.d {
+    grid-column: col 1 / span 2;
+    grid-row: row 2;
 }
 
-.item6 {
-    grid-area: snorklare;
+.e {
+    grid-column: col 3 / span 2;
+    grid-row: row 2;
 }
 
-.item7 {
-    grid-area: clown;
+.f {
+    grid-column: col 5 / span 2;
+    grid-row: row 2;
 }
 
-.item8 {
-    grid-area: ninja2;
+.g {
+    grid-column: col 1 / span 2;
+    grid-row: row 3;
 }
 
-.item9 {
-    grid-area: nerd2;
+.h {
+    grid-column: col 3 / span 2;
+    grid-row: row 3;
 }
 
-.item10 {
-    grid-area: fotograf;
+.i {
+    grid-column: col 5 / span 2;
+    grid-row: row 3;
 }
 
-.item11 {
-    grid-area: personlig_tränare;
+.j {
+    grid-column: col 1 / span 3;
+    grid-row: row 4;
+}
+
+.k {
+    grid-column: col 4 / span 3;
+    grid-row: row 4;
 }
