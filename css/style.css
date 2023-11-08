@@ -1,0 +1,52 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'austronaut ninja1 nerd1'
+    'läkare gitarrknäppare snorklare'
+    'clown ninja2 nerd2'
+    'fotograf personlig_tränare';
+}
+
+.item1 {
+    grid-area: austronaut;
+}
+
+.item2 {
+    grid-area: ninja1; 
+}
+
+.item3 {
+    grid-area: nerd1;
+}
+
+.item4 {
+    grid-area: läkare;
+}
+
+.item5 {
+    grid-area: gitarrknäppare;
+}
+
+.item6 {
+    grid-area: snorklare;
+}
+
+.item7 {
+    grid-area: clown;
+}
+
+.item8 {
+    grid-area: ninja2;
+}
+
+.item9 {
+    grid-area: nerd2;
+}
+
+.item10 {
+    grid-area: fotograf;
+}
+
+.item11 {
+    grid-area: personlig_tränare;
+}
